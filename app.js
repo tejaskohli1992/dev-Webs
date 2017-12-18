@@ -14,7 +14,9 @@ var commentRoutes = require("./routes/comments");
 var campgroundRoutes = require("./routes/campgrounds");
 var indexRoutes = require("./routes/index");
 
-mongoose.connect("mongodb://localhost/yelp_camp_v3");
+// mongoose.connect("mongodb://localhost/yelp_camp_v3");
+mongoose.connect("mongodb://tejaskohli:toofan1234@ds133162.mlab.com:33162/book_worm");
+// mongodb://tejaskohli:toofan1234@ds133162.mlab.com:33162/book_worm
 
 var campgrounds = [
 		{name: "Salmon Creek", image: "https://farm5.staticflickr.com/4153/4835814837_feef6f969b.jpg"},
