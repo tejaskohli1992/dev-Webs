@@ -54,6 +54,6 @@ app.use(indexRoutes);
 app.use("/novels/:id/comments",commentRoutes);
 app.use("/novels",campgroundRoutes);
 
-app.listen(3000,function(){
+app.listen(process.env.PORT || 3000,function(){
 	console.log("server has started on port 3000");
 });
